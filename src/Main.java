@@ -6,6 +6,11 @@ public class Main {
         var employees = a / b; //количество сотрудников
 
 
-        System.out.print("Всего работников в компании" + " " + "–" + " " + employees + " " + "человек.");
+        System.out.println("Всего работников в компании" + " " + "–" + " " + employees + " " + "человек.");
+
+        employees = employees +94;
+        var hours = a / employees;
+        System.out.println("Если в компании работает"+" " + employees  + " " +  "человека, то всего" + " " + hours + " " + "часа работы может быть поделено между сотрудниками."
+        );
     }
 }
